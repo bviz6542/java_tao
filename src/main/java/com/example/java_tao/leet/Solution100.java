@@ -3,17 +3,17 @@ package com.example.java_tao.leet;
 public class Solution100 implements  Solution {
     @Override
     public void run() {
-        Solution100.TreeNode a_node4 = new Solution100.TreeNode(4);
-        Solution100.TreeNode a_node5 = new Solution100.TreeNode(5);
-        Solution100.TreeNode a_node2 = new Solution100.TreeNode(2, a_node5, a_node4);
-        Solution100.TreeNode a_node3 = new Solution100.TreeNode(3);
-        Solution100.TreeNode a_root = new Solution100.TreeNode(1, a_node3, a_node2);
+        TreeNode a_node4 = new TreeNode(4);
+        TreeNode a_node5 = new TreeNode(5);
+        TreeNode a_node2 = new TreeNode(2, a_node5, a_node4);
+        TreeNode a_node3 = new TreeNode(3);
+        TreeNode a_root = new TreeNode(1, a_node3, a_node2);
 
-        Solution100.TreeNode b_node4 = new Solution100.TreeNode(4);
-        Solution100.TreeNode b_node5 = new Solution100.TreeNode(5);
-        Solution100.TreeNode b_node2 = new Solution100.TreeNode(2, b_node5, b_node4);
-        Solution100.TreeNode b_node3 = new Solution100.TreeNode(3);
-        Solution100.TreeNode b_root = new Solution100.TreeNode(1, b_node3, b_node2);
+        TreeNode b_node4 = new TreeNode(4);
+        TreeNode b_node5 = new TreeNode(5);
+        TreeNode b_node2 = new TreeNode(2, b_node5, b_node4);
+        TreeNode b_node3 = new TreeNode(3);
+        TreeNode b_root = new TreeNode(1, b_node3, b_node2);
 
         System.out.println(isSameTree(a_root, b_root));
     }
